@@ -1,0 +1,146 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19/07/2018, 18:04:55
+    Author     : Marcos Vinicius
+*/
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.secao-esquerda{
+    height: 100vh;
+    background-color: #2d3034;
+}
+.logo{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #383a40bf;;
+    
+}
+
+.navegacao > h4{
+   
+    font-size: 12pt;
+    color: white;
+    text-align: center;
+
+}
+.border-bottom{
+    border-bottom: 1px solid #24262a;;
+}
+
+.frase h1{
+    font-size: 15pt;
+    color: white;
+    margin-top: 5px;
+}
+.col{
+    padding: 0;
+}
+.col.s2 {
+    padding: 0;
+}
+input[type=text]:not(.browser-default):focus:not([readonly]){
+        border-bottom: 1px solid #2d3034;
+
+    box-shadow: none;
+
+}
+
+.buscar{
+    margin-top: 20px;
+}
+
+
+.btn-busca-submit{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding-top: 18px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    text-align: left !important;
+    
+    
+}
+
+.row{
+    margin: 0 !important;
+}
+
+.btn-busca-submit:focus{
+    background-color: transparent;
+}
+
+.area-conteudo{
+    margin-top: 44px;
+}
+.container-mv{
+    margin:0 auto;max-width:1280px;width:86%
+}
+.campodebusca{
+    margin-top: 30px;
+}
+.select-wrapper input.select-dropdown{
+     color: #2D3034;
+    background-color: yellow;
+    font-weight: 600;
+    padding-left: 5px;
+        border-bottom: none;
+   
+}
+.input-field.col.s12.campo-busca {
+    padding-left: 0;
+        margin-bottom: 0;
+    padding-right: 5px;
+}
+input.select-dropdown:focus {
+    border-bottom: none !important;
+}
+.select-dropdown li.optgroup>span {
+    color: black;
+    text-transform: uppercase;
+}
+.select-dropdown.dropdown-content li:hover {
+    background-color: #2D3034;
+}
+.dropdown-content li>a, .dropdown-content li>span {
+   
+    color: black !important;
+   
+}
+.dropdown-content li>a, .dropdown-content li>span:hover {
+   
+    color: yellow !important;
+   
+}
+
+.select-wrapper .caret {
+ 
+    z-index: 999 !important;
+   
+}
+.container-btn-busca{
+    
+        margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 10px !important;
+ 
+    
+    
+}
+
+.container-btn-busca > button{
+       font-weight: 500;
+    
+    background-color: white ;
+    color: black ;
+   
+}

@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21/07/2018, 14:29:24
+    Author     : Marcos Vinicius
+*/
+body{
+   background-image: url('../img/wallpaper-biblioteca.png');
+   background-size: 100%;
+   background-repeat: no-repeat;
+     
+}
+
+.alert {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: none !important;
+}
+.alert-danger{
+     background-color: #F8D7DA;
+     color: #B75A24;
+     border: 1px solid #F5C6CB;
+}
+
+.box-login {
+max-width: 350px;
+}
+
+
+.margin{
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20vh;
+    
+}
+.submit{
+    float: right
+}
+
